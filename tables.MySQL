@@ -1,0 +1,28 @@
+drop table IF EXISTS session;
+drop table IF EXISTS messages;
+
+create table session (
+	id int(10) unsigned default '0' not null auto_increment,
+	name text not null, 
+	email text not null, 
+	date datetime not null, 
+	initdate datetime not null,
+	program text not null, 
+	version text not null,
+	language text,
+	locale text not null,
+	langteam text,
+	comments text,
+	maintaineremail text,
+	primary key(id)
+);
+
+create table messages (
+	id int(10) unsigned default '0' not null,
+	reference text not null,
+	flag text not null,
+	msgid text not null,
+	msgstr text
+);
+
+

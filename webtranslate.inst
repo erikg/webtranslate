@@ -1,0 +1,9 @@
+<BR><BR>Instructions:<BR>
+Please note the text to be translated is in the formatting used by C's printf.
+The special formatting symbols should be preserved. If a string of 'junk' starts
+with a backslash \ or percentile % then it is an escape code or substitution
+flag, and should be copied EXACTLY. A copy of the generated PO file will be
+emailed to the address you supply, as well as the project maintainer. Please
+try the PO file when you receive it and email the maintainer if there are any
+issues.
+<BR><BR>

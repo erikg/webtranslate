@@ -1,0 +1,14 @@
+Webstranslate (C) 2000 Erik Greenwald <erik@smluc.org>
+http://math.smsu.edu/~br0ke/webtranslate.html
+
+
+This is readme does not exist yet.
+
+Read INSTALL to see how to get it in place.
+
+To put a project into the database, use import.pl
+To create a .po file, use 'export.pl' or save the email
+
+Bugs, patches, complaints, comments:
+	send email to erik@dynsol.net or erik@smluc.org
+

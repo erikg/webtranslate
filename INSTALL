@@ -1,0 +1,24 @@
+
+Installing the Perl version
+  
+  * Edit webtranslation.conf to suit your needs. Edit the header and footer
+    files if you want.
+  * Create a user and database in your DBMS (like MySQL or PostGreSQL)
+  * Create the tables as described in the tables.* files.
+      cat tables.whatever | sqlclient &lt;parms&gt;
+  * Copy the cgi files into place
+      cp w*.pl w*.[cfh]* /your/cgi-bin/
+  * Use 'import.pl' to put your .pot files into the database
+  * Give it a test :)
+  
+
+Installing the PHP3 version
+  
+  * Edit webtranslation.inc 
+  * Create the user and database for your RDBMS, and initialize the tables. See 
+    the perl section for details on how to do that.
+  * Copy the php files into your html directory.
+       cp w*.php3 w*.[fhi] /your/html_dir/
+  * Use import.pl to put your .pot files into the database
+  * Knock yourself out
+
