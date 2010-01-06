@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # import.pl for the webtranslate package
-# Copyright (C) 2000 Erik Greenwald <erik@smluc.org>
+# Copyright (C) 2000-2010 Erik Greenwald <erik@smluc.org>
 # released under the GPL v2 (or better). 
 # This software comes with absofrikkinlutely no warrenty of any kind.
 #
